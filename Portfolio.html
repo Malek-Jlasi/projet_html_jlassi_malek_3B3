@@ -3,73 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'acceuil </title>
-       
-    <link rel="stylesheet" href="css/main.css">
-  
-
+    <title>Portfolio</title>
     <style>
-
-      h1 {
-          text-align: center;
-          color: #007bff; /* Couleur bleue pour le titre principal */
-          margin-top: 30px;
-      }
-      .project {
-          margin-bottom: 30px;
-          background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond des sections avec une opacité */
-          padding: 20px;
-          border-radius: 8px;
-      }
-      .project h2 {
-          color: #ff6347; /* Autre couleur pour les sous-titres */
-      }
-      .project p {
-          line-height: 1.6;
-      }
-  </style>
-
-
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffc0cb; /* Couleur de fond rose */
+            color: #333; /* Couleur du texte principale */
+        }
+        h1 {
+            text-align: center;
+            color: #007bff; /* Couleur bleue pour le titre principal */
+            margin-top: 30px;
+        }
+        .project {
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .project h2 {
+            color: #ff6347; /* Autre couleur pour les sous-titres */
+        }
+        .project p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-                                            <!-- SECTION: Splashscreen -->
-	<div class="splashscreen">
-		<div class="preloader">
-			<span class="preloader__text">Loading</span>
-		</div>
-	</div>
-	<!-- END SECTION: Splashscreen -->
-	
-	<!-- SECTION: Intro -->
-	<header class="header">
-		<!-- SECTION: Navigation -->
-	<div id="top" class="navigation">
-		<div class="navigation__wrapper wrapper--large">
-			<a class="navigation__logo logo" href="#0">Logo</a>
-			<nav class="navigation__container">
-				<ul class="navigation__list">
-					<p><a href="index.html">page d'acceuil</a></p>
-                    <p><a href="Home.html">Home</a></p>
-                    <p><a href="Portfolio.html">Portfolio</a></p>
-					<p><a href="mon_cv.html">Mon cv</a></p>
-                    <p><a href="Contact.html">Contact</a></p>
-				</ul>
-			</nav>
-		</div>
-	</div>
-	<!-- END SECTION: Navigation -->
-	</header>
-	<!-- END SECTION: Intro -->
-<br>
-<br>
-<br>
-		<!-- SECTION: About -->
-		<section class="about">
+    <p><a href="Home.html">Home</a></p>
+    <p><a href="Inscription.html">Inscription</a></p>
+    <p><a href="Contact.html">Contact</a></p>
+    <p><a href="index.html">Retour à la page d'accueil</a></p>
 
-
-
-		
-		<h2>Projets de Recherche en Mathématiques</h2>
+    		<!-- SECTION: Work -->
+		<section id="work" class="work">
+			<h1 class="work__heading title">Les Derniers Projets</h1>
+		</section>
+		<!-- END SECTION: Work -->
+        <h2>Projets de Recherche en Mathématiques</h2>
     
         <div class="project">
             <h3>Méthodes Itératives</h3>
@@ -95,12 +68,5 @@
             <h3>Idées sur les Équations de Navier-Stokes</h3>
             <p>Nos réflexions récentes ont exploré de nouvelles perspectives pour aborder les équations de Navier-Stokes, en se concentrant sur des méthodes innovantes pour la résolution numérique de ces équations complexes. Ces idées prometteuses ouvrent des pistes pour une meilleure compréhension des écoulements fluides, des modèles climatiques et des phénomènes naturels gouvernés par ces équations fondamentales.</p>
         </div>
-    </section>
-    <!-- END SECTION: About -->	
-
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="js/functions-min.js"></script>
 </body>
 </html>
